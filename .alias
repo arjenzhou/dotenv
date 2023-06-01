@@ -1,6 +1,6 @@
 # sys
 alias psg='ps -ef | grep '
-alias psme='ps -ef | grep $USER --color=always '
+alias psme='ps -ef | grep $USER'
 alias tf='tail -200f'
 alias ports='netstat tunlpa'
 alias lns='ln -s'
