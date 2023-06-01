@@ -1,3 +1,21 @@
-alias vim=nvim
+# sys
+alias psg='ps -ef | grep '
+alias psme='ps -ef | grep $USER --color=always '
+alias tf='tail -200f'
+alias ports='netstat tunlpa'
+alias lns='ln -s'
+
+# ls
 alias ll='ls -alh'
 alias lg='ls -alh | grep'
+alias l=ls
+
+# cd
+alias ..='cd ..'
+alias ...='cd ../../'
+
+# neovim
+alias vim=nvim
+
+# bat cat
+alias cat=bat
